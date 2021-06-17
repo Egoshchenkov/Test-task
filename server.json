@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "tittle": "I wanna go to #shop",
+      "id": 1
+    },
+    {
+      "tittle": "#Nature",
+      "id": 2
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

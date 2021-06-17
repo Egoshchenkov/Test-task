@@ -1,0 +1,104 @@
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: .5rem 1rem;
+    border: 1px solid grey;
+    border-radius: 4px;
+    margin-bottom: .5rem;
+}
+input {
+    margin-right: 1rem;
+}
+
+.button {
+    border-radius: 10%;
+    color: black;
+
+    &__add {
+        width: 70px;
+    }
+
+    &__remove {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin-left: 4px;
+    }
+
+    &__edit {
+        width: 50px;
+        height: 30px;
+        border-radius: 50%;
+    }
+}
+
+.button:hover {
+    background-color: rgb(190, 187, 187);
+    transform: translateY(-3px);
+    box-shadow: 0 .5rem 1rem rgba(black,.2);
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.hashTag {
+    color: white;
+    background-color: rgb(143, 143, 224);
+    text-align: center;
+    border-radius: 10px;
+    width: 100%;
+    padding: 2px 4px;
+    margin: 0px 4px;
+    display: inline;
+}
+
+.deleteTagButton {
+    background-color: rgb(143, 143, 224);
+    border: none;
+}
+
+.hashTagText {
+    font-style: italic;
+    color: black;
+}
+
+.tittleInput {
+    border: none;
+    color: #000;
+}
+
+.editHashTag {
+    font-style: italic;
+    color: yellowgreen;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.buttons {
+    display: inline;
+    width: 20%;
+}
+
+.tittleBox {
+    margin: 2px;
+    padding: 2px;
+    display: inline;
+}
+
+.tittleBoxChecked {
+    margin: 2px;
+    padding: 2px;
+    display: inline;
+    border: 2px solid black;
+}
+
+.hashTagBox {
+    margin-top: 5px;
+}
